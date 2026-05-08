@@ -1,0 +1,41 @@
+body {
+    background: radial-gradient(circle at top,#0f172a,#020617);
+    color: white;
+}
+
+/* Title */
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    text-shadow: 0 0 20px #6366f1;
+}
+
+/* Glass Card */
+
+.card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(99,102,241,0.3);
+}
+
+/* Button */
+
+.stButton button {
+    background: linear-gradient(90deg,#2563eb,#7c3aed);
+    border-radius: 10px;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-weight: bold;
+}
+
+.stButton button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #7c3aed;
+}
